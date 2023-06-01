@@ -24,8 +24,6 @@ export const App = () => {
         break;
       default:
     }
-    countTotalFeedback();
-    countPositiveFeedbackPercentage();
   };
 
   const countTotalFeedback = () => {
