@@ -1,0 +1,19 @@
+.header {
+    margin-bottom: 50px;
+}
+
+.buttonsList {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+.paragraph {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.listStats {
+    list-style-type: none;
+    font-weight: 500;
+}
