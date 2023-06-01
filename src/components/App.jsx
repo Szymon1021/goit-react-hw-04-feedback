@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Feedback } from './FeedbackOptions/FeedbackOptions';
+import { Feedback } from './Feedback/Feedback';
 import { Statistics } from './Statistics/Statistics';
 import { Section } from './Section/Section';
 import { Notification } from './Notifivation';
@@ -24,8 +24,8 @@ export const App = () => {
         break;
       default:
     }
-    this.countTotalFeedback();
-    this.countPositiveFeedbackPercentage();
+    countTotalFeedback();
+    countPositiveFeedbackPercentage();
   };
 
   const countTotalFeedback = () => {
